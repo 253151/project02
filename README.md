@@ -1,2 +1,12 @@
-# java_python_ai_01
-자바 파이썬 AI 국기 1기.
+# 📗 Project 02. _Last Carnival_
+- **사용언어** : Java, JQuery, Ajax, CSS, HTML, Mybatis
+- **사용툴** : VS Code 1.74.1, Eclipse
+- **프레임워크** : Spring Boot, Spring Security
+- **데이터베이스** : MySQL, MongoDB atlas(차트)
+- **프로젝트 내용** :
+    - LastFM API를 활용한 차트 제공
+    - 주제별 커뮤니티
+    - 회원가입, 로그인과 카카오 소셜 로그인을 활용한 편의성 제공
+    - 관리자 회원 관리 기능
+- **프로젝트 인원** : 총4명
+- **기간** : 2023.03.27 ~ 04.
