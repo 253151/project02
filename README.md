@@ -1,4 +1,4 @@
-# 프로젝트: Last Carnival
+# 📗 PROJECT02. _Last Carnival_
 ![index](https://user-images.githubusercontent.com/120995522/230261320-2809c8f6-0e18-4b42-8576-9913432e5833.PNG)
 
 
