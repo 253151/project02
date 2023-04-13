@@ -1,3 +1,4 @@
+
 # 📗 PROJECT02. _Last Carnival_
 ![index](https://user-images.githubusercontent.com/120995522/230261320-2809c8f6-0e18-4b42-8576-9913432e5833.PNG)
 
@@ -12,8 +13,8 @@
 
 ## 프로젝트 내용
 - 자세한 내용은 아래 링크 참조하여 주세요 (추가 예정)
-  - PDF 👉 
-  - 시연영상 👉 
+  - PDF 👉 [클릭](https://drive.google.com/file/d/1VMQNKujwVHX3Rv2M1C9xTM5NjeEHaWGG/view?usp=share_link)
+  - 시연영상 👉[유튜브로 이동](https://www.youtube.com/watch?v=4hcJi-qpkdU)
 
 ### 팀 구성
 - 인원 : 4명
