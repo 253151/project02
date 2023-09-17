@@ -26,5 +26,6 @@ public interface BoardService {
 	// 조회수
 	public int joinCntUp(int boardNo) throws Exception;
 
+
 }
 

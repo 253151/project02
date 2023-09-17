@@ -152,6 +152,30 @@ DEFAULT CHARACTER SET = utf8mb4
 COMMENT = '회원 소셜 테이블';
 
 
+-- -----------------------------------------------------
+-- Table `human`.`like`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `human`.`like` (
+  `like_id` INT NOT NULL AUTO_INCREMENT COMMENT '좋아요 번호',
+  `like_cnt` INT NOT NULL COMMENT '좋아요 갯수',
+  `user_id` VARCHAR(50) NOT NULL,
+  `board_no`  INT NOT NULL COMMENT '게시글 번호',
+  PRIMARY KEY (`like_id`),
+  CONSTRAINT `FK_board_TO_like`
+    FOREIGN KEY (`board_no`)
+    REFERENCES `human`.`board` (`board_no`)
+    ON DELETE CASCADE
+    ON UPDATE CASCADE,
+  CONSTRAINT `FK_users_TO_like`
+    FOREIGN KEY (`user_id`)
+    REFERENCES `human`.`users` (`user_id`)
+    ON DELETE CASCADE
+    ON UPDATE CASCADE)   
+ENGINE = InnoDB
+DEFAULT CHARACTER SET = utf8mb4
+COMMENT = '좋아요 테이블';
+
+
 SET SQL_MODE=@OLD_SQL_MODE;
 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS;
 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS;

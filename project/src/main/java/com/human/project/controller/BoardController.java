@@ -73,6 +73,7 @@ public class BoardController {
 		if( result > 0 ) log.info("게시글 쓰기 성공...");
 		else 			 log.info("게시글 쓰기 실패...");
 		
+
 		return "redirect:/board/list";
 	}
 	
@@ -119,6 +120,7 @@ public class BoardController {
 			newCookie.setMaxAge(60 * 60 * 24); 								// 쿠키 시간
 			res.addCookie(newCookie);
 		}
+
 		
 		return "board/read";
 	}

@@ -137,8 +137,16 @@
 			<tr>
 				<td style="border:1;" colspan=5 th:text="${board.content}"></td>
 			</tr>
+			<tr><td colspan=8><hr></td></tr>
+			<!-- <tr>
+				<td th:text="${board.like}"></td>
+				<td><button type="button" onclick="userLikeAction()" class="btn">좋아요!</button></td>
+				<!-- <a onclick="return confirm('좋아요 되었습니다!')" href="./userLikeAction.jsp?userWriteTitle=<%=userWriteTitle%>">좋아요❤️</a>  -->
+				
+				<!-- <a onclick="return confirm('삭제하시겠습니까?')" href="./userDeleteAction.jsp?userWriteID=<%= userWriteID %>&userWriteTitle=<%=userWriteTitle%>">삭제</a> -->
+
+			</tr> -->
 		</table>
-		<hr>
 	</form>
 
 	 <!-- 버튼 -->
@@ -311,10 +319,15 @@
 				form.submit()
 			}
 		}
-		
+
 		function moveList() {
 			location.href = "/board/list"	
 		}	
+
+		function userLikeAction() {
+			likeCntUp(boardNo)
+			alert("좋아요 되었습니다.")
+		}
 	</script>
 	
 	
